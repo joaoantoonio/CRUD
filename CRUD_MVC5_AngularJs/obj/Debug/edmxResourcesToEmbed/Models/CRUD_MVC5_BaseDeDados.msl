@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CRUD_MVC5ModelStoreContainer" CdmEntityContainer="CRUD_MVC5Entities">
+    <EntitySetMapping Name="Funcionarios">
+      <EntityTypeMapping TypeName="CRUD_MVC5Model.Funcionario">
+        <MappingFragment StoreEntitySet="Funcionarios">
+          <ScalarProperty Name="Id_Funcionario" ColumnName="Id_Funcionario" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Departamento" ColumnName="Departamento" />
+          <ScalarProperty Name="Cargo" ColumnName="Cargo" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
